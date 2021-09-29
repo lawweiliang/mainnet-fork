@@ -1,0 +1,23 @@
+{
+  "name": "mainnetfork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "fork": "dotenv cross-var ganache-cli --fork https://mainnet.infura.io/v3/%INFURA_API_KEY% --unlock %DAI_WHALE% --networkId 999",
+    "test": "dotenv cross-var echo https://mainnet.infura.io/v3/%INFURA_API_KEY% %DAI_WHALE%"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2"
+  },
+  "devDependencies": {
+    "cross-var": "^1.1.0",
+    "dotenv-cli": "^4.0.0"
+  }
+}
