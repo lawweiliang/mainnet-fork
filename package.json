@@ -7,8 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "fork": "dotenv cross-var ganache-cli --fork https://mainnet.infura.io/v3/%INFURA_API_KEY% --unlock %DAI_WHALE% --networkId 999",
-    "test": "dotenv cross-var echo https://mainnet.infura.io/v3/%INFURA_API_KEY% %DAI_WHALE%"
+    "fork": "dotenv cross-var ganache-cli --fork https://mainnet.infura.io/v3/%INFURA_API_KEY% --unlock %DAI_WHALE% --networkId 999"
   },
   "keywords": [],
   "author": "",
